@@ -19,7 +19,7 @@ The above is conceptually the same info one sees on the session page:
 ![](https://github.com/bf31415/moloch-kibana-examples/blob/master/Screen%20Shot%202019-09-04%20at%2008.52.14.png)
 
 
-#### H4 Why kibana?
+#### Why kibana?
 
 The moloch platform does much of the heavy lifting- it provides a scaleable way to ingest pcaps and push key attributes of this data to elastic.   Kibana provides an easy way to create visualizations.  
 
@@ -32,6 +32,22 @@ Suppose you wanted to see the traffic by source->destination IP for a number of 
 
 
 ![](https://github.com/bf31415/moloch-kibana-examples/blob/master/heatmap-example.png)
+
+The above heatmap is defined in this file.
+
+
+### How do I get info into my kibana?
+
+The steps to important a visualization or dashboard is as follows:
+
+* For the target visualization, download the code to your local system.  You can do this with git clone or simply copy the contents and storing them into a file locally.  note that the filename might need top end in ".ndjson" for kibana to accept it.
+* in kibana, select the management icon.  On the left side of the kibana page, look for the gear shaped object-- likely the last icon on the column.  if you hover over it, "management" will appear.  select this button.
+* On the subsequent page, look for the Kibana section and under that look for saved objects.  select that.
+* you should now be at the saved objects page.  select import.
+* on the pop-up, select import again
+* then select the local file with the target visualization.
+* if that step is successful, you should then be able to select import (at bottom) 
+
 
 
 
