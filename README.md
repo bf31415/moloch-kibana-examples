@@ -31,7 +31,7 @@ The intent here is to combine these to capabilities, namely to provide a means f
 Suppose you wanted to see the traffic by source->destination IP for a number of different protocols.  Here's an example of showing that information in real-time via heatmaps:
 
 
-![] https://github.com/bf31415/moloch-kibana-examples/blob/master/heatmap-example.png
+![]https://github.com/bf31415/moloch-kibana-examples/blob/master/heatmap-example.png
 
 
 
