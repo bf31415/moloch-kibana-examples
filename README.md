@@ -4,11 +4,11 @@
 
 The purpose of this repo is to host kibana based visualizations which are based on the moloch (molo.ch) schema in elasticsearch.
 
-Moloch is an oper source platform for ingesting pcaps, parsing the packets, possibly summarizing individual packet streams into a "session" and then publishing this "session" data to elasticsearch.   Moloch has defined a schema which maps a number of specific packet attributes into a corresponsing elastic fields.  Moloch also has the ability to general packet attributes into more aggregate information that is written to elastic via additional field identifiers.
+Moloch is an open source platform for ingesting pcaps, parsing the packets, possibly summarizing related packets into a "session" and then publishing this "session" data to elasticsearch.   Moloch has defined a schema which maps a number of specific packet attributes into a corresponsing elastic fields.  Moloch also has the ability to summarize individual packet attributes into more aggregate information that is then written to elastic via additional elastic field.
 
 #### What is kibana?
 
-Kibana is the web UI to the "ELK" stack.  As such kibana is purposely tuned to natively access data in elastic.  Further, kibana has a number of predefined visualization types (line graphs, heatmaps, etc.) which can easily be created to visualize the data in moloch. 
+Kibana is the web UI to the "ELK" stack.  As such, kibana can natively access data in elastic.  Further, kibana has a number of predefined visualization types (line graphs, heatmaps, etc.) which can easily be created to visualize the data in moloch.  
 
 The picture below shows, in a simple form, session information based on the session's lastpacket timestamp.  
 
