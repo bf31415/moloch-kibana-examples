@@ -33,7 +33,7 @@ Suppose you wanted to see the traffic by source->destination IP for a number of 
 
 ![](https://github.com/bf31415/moloch-kibana-examples/blob/master/heatmap-example.png)
 
-The above heatmap is defined in [here]:https://github.com/bf31415/moloch-kibana-examples/blob/master/examples/dashboard-heatmap-example.ndjson
+The above heatmap is defined in [here]:(https://github.com/bf31415/moloch-kibana-examples/blob/master/examples/dashboard-heatmap-example.ndjson)
 
 
 ### How do I get info into my kibana?
