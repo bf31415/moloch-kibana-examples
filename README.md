@@ -36,7 +36,7 @@ Suppose you wanted to see the traffic by source->destination IP for a number of 
 The above heatmap is defined in [here](https://github.com/bf31415/moloch-kibana-examples/blob/master/examples/dashboard-heatmap-example.ndjson)
 
 
-### How do I get info into my kibana?
+### How do I get one of these visualizations into my kibana?
 
 The steps to important a visualization or dashboard is as follows:
 
