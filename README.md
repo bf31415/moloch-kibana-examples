@@ -7,3 +7,7 @@ The picture below shows, in a simple form, session information based on the sess
 
 The above is conceptually the same info one sees on the session page:
 
+![](https://github.com/bf31415/moloch-kibana-examples/blob/master/Screen%20Shot%202019-09-04%20at%2008.52.14.png)
+
+
+
