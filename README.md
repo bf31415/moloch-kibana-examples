@@ -35,5 +35,9 @@ Suppose you wanted to see the traffic by source->destination IP for a number of 
 
 
 
+#### What are the names of the moloch fields in elastic?
+
+Go here: http://VIEWER-IP:8005/help#fields
+
 
 
