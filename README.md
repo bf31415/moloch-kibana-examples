@@ -14,8 +14,7 @@ While we don't talk about it here, kibana touts to have a ML capability.  As tim
 
 The picture below shows, in a simple form, session information based on the session's lastpacket timestamp.  
 
-![](https://github.com/bf31415/moloch-kibana-examples/blob/master/Screen%20Shot%202019-09-04%20at%2008.34.03.png)
-
+![](https://github.com/bf31415/moloch-kibana-examples/blob/master/diagrams/timelion-line-graph.png)
 
 
 #### Why kibana?
