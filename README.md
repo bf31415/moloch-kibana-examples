@@ -16,9 +16,6 @@ The picture below shows, in a simple form, session information based on the sess
 
 ![](https://github.com/bf31415/moloch-kibana-examples/blob/master/Screen%20Shot%202019-09-04%20at%2008.34.03.png)
 
-The above is conceptually the same info one sees on the session page:
-
-![](https://github.com/bf31415/moloch-kibana-examples/blob/master/Screen%20Shot%202019-09-04%20at%2008.52.14.png)
 
 
 #### Why kibana?
@@ -48,9 +45,9 @@ Suppose you wanted to see the traffic by source->destination IP for a number of 
 The above heatmap is defined in [here](https://github.com/bf31415/moloch-kibana-examples/blob/master/examples/dashboard-heatmap-example.ndjson)
 
 
-### How do I get one of these visualizations into my kibana?
+### How do I get one of these visualization analytics into my kibana?
 
-The steps to important a visualization or dashboard is as follows:
+The steps to import a visualization or dashboard is as follows:
 
 * For the target visualization, download the code to your local system.  You can do this with git clone or simply copy the contents and storing them into a file locally.  note that the filename might need top end in ".ndjson" for kibana to accept it.
 * in kibana, select the management icon.  On the left side of the kibana page, look for the gear shaped object-- likely the last icon on the column.  if you hover over it, "management" will appear.  select this button.
@@ -61,6 +58,9 @@ The steps to important a visualization or dashboard is as follows:
 * if that step is successful, you should then be able to select import (at bottom) 
 
 
+#### How do I share (publish) a visualization analytic with others?
+
+The steps to export a visualization or dashboard is as follows:
 
 
 #### What are the names of the moloch fields in elastic?
