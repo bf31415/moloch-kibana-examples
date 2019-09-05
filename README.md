@@ -41,7 +41,7 @@ The above dashboard is defined in [here](https://github.com/bf31415/moloch-kiban
 Suppose you wanted to see the traffic by source->destination IP for a number of different protocols.  Here's an example of showing that information in real-time via heatmaps:
 
 
-![](https://github.com/bf31415/moloch-kibana-examples/blob/master/heatmap-example.png)
+![](https://github.com/bf31415/moloch-kibana-examples/blob/master/diagrams/heatmap-example.png)
 
 The above heatmap dashboard is defined in [here](https://github.com/bf31415/moloch-kibana-examples/blob/master/diagrams/dashboard-heatmap-example.ndjson)
 
