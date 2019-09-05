@@ -8,7 +8,7 @@ Moloch is an open source platform for ingesting pcaps, parsing the packets, poss
 
 #### What is kibana?
 
-Kibana is the web UI to the "ELK" stack.  As such, kibana can natively access data in elastic.  Further, kibana has a number of predefined visualization types (line graphs, heatmaps, etc.) which can easily be created to visualize the data in moloch. 
+Kibana is the web UI to the "ELK" stack.  As such, kibana can natively access data in elastic.  Further, kibana has a number of predefined visualization types (line graphs, heatmaps, etc.) which can easily be created to visualize the data in moloch.  Kibana has a number of powerful aspects including: 1) the ability for one to  easily "mash up" different visualizations onto the same dashboard and 2) the ability for group sourcing of visualizations-- meaning that users can individually develop, share and use visualizations created by others simply by importing or exporting data into their kibana eco-system.
 
 While we don't talk about it here, kibana touts to have a ML capability.  As time and interest permits, we may dig further into how kibana could be used to apply ML to moloch elastic data.
 
@@ -20,7 +20,7 @@ The picture below shows, in a simple form, session information based on the sess
 
 #### Why kibana?
 
-The moloch platform does much of the heavy lifting- it provides a scaleable way to ingest pcaps and push key attributes of this data to elastic.   Kibana provides an easy way to create visualizations.  
+The moloch platform does  the heavy lifting- it provides a scaleable way to ingest pcaps and push key attributes of this data to elastic.   Kibana provides an easy way to create visualizations based on this elastic data.  
 
 The intent here is to combine these to capabilities, namely to provide a means for moloch users to either publish one or more of their kibana visualization's of moloch data or to use others published kibana visualizations for use in their ELK ecosystem.
 
