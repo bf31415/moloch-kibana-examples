@@ -35,6 +35,8 @@ Below is a dashboard where the top row shows arrival and details for all traffic
 
 ![](https://github.com/bf31415/moloch-kibana-examples/blob/master/examples/dashboard-sessionless.png)
 
+The above dashboard is defined in [here](https://github.com/bf31415/moloch-kibana-examples/blob/master/examples/dashboard-sessionless-example.ndjson)
+
 #### Heatmaps for src->dst traffic (sliced by protocol type)
 
 Suppose you wanted to see the traffic by source->destination IP for a number of different protocols.  Here's an example of showing that information in real-time via heatmaps:
@@ -42,7 +44,7 @@ Suppose you wanted to see the traffic by source->destination IP for a number of 
 
 ![](https://github.com/bf31415/moloch-kibana-examples/blob/master/heatmap-example.png)
 
-The above heatmap is defined in [here](https://github.com/bf31415/moloch-kibana-examples/blob/master/examples/dashboard-heatmap-example.ndjson)
+The above heatmap dashboard is defined in [here](https://github.com/bf31415/moloch-kibana-examples/blob/master/examples/dashboard-heatmap-example.ndjson)
 
 
 ### How do I get one of these visualization analytics into my kibana?
