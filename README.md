@@ -50,7 +50,8 @@ The above heatmap dashboard is defined in [here](https://github.com/bf31415/molo
 
 The steps to import a visualization or dashboard is as follows:
 
-* For the target visualization, download the code to your local system.  You can do this with git clone or simply copy the contents and storing them into a file locally.  note that the filename might need top end in ".ndjson" for kibana to accept it.
+* For the target visualization, download the code to your local kibana platform.  You can do this with git clone or simply copy the contents and storing them into a file locally.  
+note that the filename might need top end in ".ndjson" for kibana to accept it.
 * in kibana, select the management icon.  On the left side of the kibana page, look for the gear shaped object-- likely the last icon on the column.  if you hover over it, "management" will appear.  select this button.
 * On the subsequent page, look for the Kibana section and under that look for saved objects.  select that.
 * you should now be at the saved objects page.  select import.
