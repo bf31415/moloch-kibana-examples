@@ -30,6 +30,16 @@ The intent here is to combine these to capabilities, namely to provide a means f
 
 ### Examples
 
+#### Linegraphs and tables
+
+Suppose you wanted to see the arrival pattern of different types of traffic in graph form while at the same time seeing the data in table form.  In the use case shown here, we wanted to validate a new feature in moloch was working correctly, namely the ability to treat a subset of traffic as being "sessionless" (eg 1 packet = 1 unique session).  To help with the development, we tag all traffic classified as sessionless with a tag "sessionless" and then filter accordingly.
+
+Below is a dashboard where the top row shows arrival and details for all traffic being treated via the default moloch session rules and the second row showing sessionless traffic.
+
+![](https://github.com/bf31415/moloch-kibana-examples/blob/master/examples/dashboard-sessionless.png)
+
+#### Heatmaps for src->dst traffic (sliced by protocol type)
+
 Suppose you wanted to see the traffic by source->destination IP for a number of different protocols.  Here's an example of showing that information in real-time via heatmaps:
 
 
