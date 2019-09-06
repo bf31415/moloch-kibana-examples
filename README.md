@@ -43,7 +43,15 @@ Suppose you wanted to see the traffic by source->destination IP for a number of 
 
 ![](https://github.com/bf31415/moloch-kibana-examples/blob/master/diagrams/heatmap-example.png)
 
-The above heatmap dashboard is defined in [here](https://github.com/bf31415/moloch-kibana-examples/blob/master/code/dashboard-heatmap-example.ndjson)
+The code for the heatmap dashboard is [here](https://github.com/bf31415/moloch-kibana-examples/blob/master/code/dashboard-heatmap-example.ndjson)
+
+#### Machine Learning
+
+There are many different definitions around what "machine learning" entails.  One generic definition is the mathmatic ability to model data.  In the example below, the graphs show the overall traffic pattern in bps (green line) and the moving average for this traffic derived over 60 seconds.  Conceptually, one might suggest that a moving average is some form of machine learning as it yields an abstraction of the data in a way which might help provide insights into "anomolous" behavior.
+
+![](https://github.com/bf31415/moloch-kibana-examples/blob/master/diagrams/dashboard-moving-average.png)
+
+The code for the moving average dashboard is [here](https://github.com/bf31415/moloch-kibana-examples/blob/master/code/dashboard-heatmap-example.ndjson)
 
 
 ### How do I get one of these visualization analytics into my kibana?
