@@ -81,7 +81,9 @@ opendistro-alerting@1.1.0.0
 
 If all looks good, then you should be able to go to Kibana UI (http://kibana-ip:5601) and see on the left side the set of main action icons an "A" with a circle around it.
 
+# Configuring alerts
 
+No need to recreate these details already defined on the opendistro site- visit [this](https://opendistro.github.io/for-elasticsearch-docs/docs/alerting/)  page and the links at the bottom for details on how to configure alerts. 
 
 
 
