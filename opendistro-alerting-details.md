@@ -26,8 +26,8 @@ sudo dpkg -i kibana-7.1.1-amd64.deb
 Restarting elastic and kibana probably couldn't hurt at this point:
 
 ```
-sudo systemctl start elasticsearch
-sudo systemctl start kibana.service
+sudo systemctl restart elasticsearch
+sudo systemctl restart kibana.service
 ```
 
 If you want to check that you're running the 7.1.1 code then do the following:
