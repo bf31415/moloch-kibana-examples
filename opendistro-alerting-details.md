@@ -79,6 +79,9 @@ opendistro_alerting
 opendistro-alerting@1.1.0.0
 ```
 
+If all looks good, then you should be able to go to Kibana UI (http://kibana-ip:5601) and see the following:
+
+
 
 
 
