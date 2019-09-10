@@ -23,10 +23,53 @@ shasum -a 512 -c kibana-7.1.1-amd64.deb.sha512
 sudo dpkg -i kibana-7.1.1-amd64.deb
 ```
 
-Install the elastic plugin
+Restarting elastic and kibana probably couldn't hurt at this point:
+
+```
+sudo systemctl start elasticsearch
+sudo systemctl start kibana.service
+```
+
+If you want to check that you're running the 7.1.1 code then do the following:
+
+```
+curl http://ELASTIC-IP:9200/
+{
+  "name" : "moloch-dev-opendistro",
+  "cluster_name" : "elasticsearch",
+  "cluster_uuid" : "8UWHflJvQ8qmywAf2WSwyA",
+  "version" : {
+    "number" : "__7.1.1__",
+    "build_flavor" : "default",
+    "build_type" : "deb",
+    "build_hash" : "7a013de",
+    "build_date" : "2019-05-23T14:04:00.380842Z",
+    "build_snapshot" : false,
+    "lucene_version" : "8.0.0",
+    "minimum_wire_compatibility_version" : "6.8.0",
+    "minimum_index_compatibility_version" : "6.0.0-beta1"
+  },
+  "tagline" : "You Know, for Search"
+}
+```
+sudo /usr/share/kibana/bin/kibana --version
+__7.1.1__
+```
+
+Install the elastic plugin:
+
+```
+sudo bin/elasticsearch-plugin install https://d3g5vo6xdbdb9a.cloudfront.net/downloads/elasticsearch-plugins/opendistro-alerting/opendistro_alerting-1.1.0.0.zip
+```
 
 Now install the kibana plugin:
 
 ```
 sudo /usr/share/kibana/bin/kibana-plugin install https://d3g5vo6xdbdb9a.cloudfront.net/downloads/kibana-plugins/opendistro-alerting/opendistro-alerting-1.1.0.0.zip
 ```
+
+To confirm the plugins are installed do the following:
+
+
+
+
