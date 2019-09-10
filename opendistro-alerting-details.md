@@ -51,7 +51,8 @@ curl http://ELASTIC-IP:9200/
   },
   "tagline" : "You Know, for Search"
 }
-```
+
+
 sudo /usr/share/kibana/bin/kibana --version
 __7.1.1__
 ```
@@ -69,6 +70,16 @@ sudo /usr/share/kibana/bin/kibana-plugin install https://d3g5vo6xdbdb9a.cloudfro
 ```
 
 To confirm the plugins are installed do the following:
+
+```
+/usr/share/elasticsearch/bin/elasticsearch-plugin list
+opendistro_alerting
+
+/usr/share/kibana/bin/kibana-plugin  list
+opendistro-alerting@1.1.0.0
+```
+
+
 
 
 
