@@ -60,7 +60,7 @@ __7.1.1__
 Install the elastic plugin:
 
 ```
-sudo bin/elasticsearch-plugin install https://d3g5vo6xdbdb9a.cloudfront.net/downloads/elasticsearch-plugins/opendistro-alerting/opendistro_alerting-1.1.0.0.zip
+sudo /usr/share/elasticsearch/bin/elasticsearch-plugin install https://d3g5vo6xdbdb9a.cloudfront.net/downloads/elasticsearch-plugins/opendistro-alerting/opendistro_alerting-1.1.0.0.zip
 ```
 
 Now install the kibana plugin:
