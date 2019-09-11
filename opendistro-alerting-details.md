@@ -79,6 +79,13 @@ opendistro_alerting
 opendistro-alerting@1.1.0.0
 ```
 
+I needed to restart elastid and kibana at this point for the plugins to take effect.
+
+```
+sudo systemctl restart elasticsearch
+sudo systemctl restart kibana.service
+```
+
 If all looks good, then you should be able to go to Kibana UI (http://kibana-ip:5601) and see on the left side the set of main action icons an "A" with a circle around it.
 
 # Configuring alerts
