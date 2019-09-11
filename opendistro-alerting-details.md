@@ -9,7 +9,7 @@ There are two alerting plugs require for alerting support in the Kibana UI-- one
 
 # Install steps
 
-1. Install the elastic and kibana 7.1.1 code.
+1. Install the elastic and kibana 7.1.1 code.  Full disclaimer-- I was running ES 7.3 and going to 7.1.1 didn't work without some TLC regarding the elastic data.  In my case I could just delete the elastic data to get elastic 7.1.1 to start.  
 
 ```
 wget https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.1.1-amd64.deb
